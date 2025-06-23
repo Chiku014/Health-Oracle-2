@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Health Oracle",
+    "slug": "health-oracle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.healthoracle.app"
+    },
+    "plugins": [
+      [
+        "expo-health-connect",
+        {
+          "isHealthDataAvailable": true
+        }
+      ]
+    ]
+  }
+}

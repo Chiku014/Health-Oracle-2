@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-native",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["react-native", "react-native-chart-kit"]
+  }
+}
